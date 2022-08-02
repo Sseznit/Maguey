@@ -1,0 +1,131 @@
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*Estilos para el icono del menu*/
+.icono-menu
+{
+    margin: -85px 50px;
+    position:relative;
+    z-index: 10;
+}
+
+.icono-menu2
+{
+    margin: -45px 887px;
+    position:relative;
+    right: 510px;
+
+    z-index: 10;
+}
+
+.icono-menu3{
+    margin: -45px 960px;
+    position:relative;
+    right: 400px;
+    z-index: 10;
+}
+
+.icono-menu4{
+    margin: -45px 750px;
+    position:relative;
+    z-index: 10;
+}
+
+.icono-menu5{
+    margin: -45px 910px;
+    position:relative;
+    z-index: 10;
+}
+
+.icono-menu img{
+    vertical-align: top;
+    width: 45px;
+    cursor: pointer;
+
+}
+
+
+/*Estilos para el contenedor del Menu*/
+.cont-menu{
+    background-color: #4E94AB;
+    box-shadow: 2px 0px 5px 2px #4E94AB;
+    width: 300px;
+    height: 115vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all .5s ease;    
+}
+
+/*Estilos para agregar en JavaScript*/
+.active{
+    transform: translate(-600px);
+}
+
+.opacity{
+    background-color: white;
+    transition: all .5s;
+}
+
+/*Estilos para el listado del Menu*/
+.cont-menu ul{
+    padding: 290px 0px 20px 0px;
+    list-style: none;
+}
+
+.cont-menu ul li{
+    color: white;
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 2px 50px;
+    cursor: pointer;
+}
+
+.cont-menu ul li:hover{
+    background-color: rgb(228,228,228);
+    color: #4E94AB;
+}
+
+/*Esto es para la parte del encabezado*/
+nav{
+    display: flex;
+    background-color: #4E94AB;
+    height: 40px;
+    justify-content: right;
+    align-items: center;
+    padding: 25px;
+    min-height: 70px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a{
+    display: block;
+    padding: 20px 40px;
+    color: #fff;
+    text-decoration: none;
+    border-left: 2px solid #fff;
+}
+
+nav a{
+    font-weight: 600;
+    padding-left: 40px;
+}
+
+@media (max-width:700px){
+    nav{
+        flex-direction: column;
+    }
+    nav-down{
+        padding: 10px 0px;
+    }
+}
+
+
