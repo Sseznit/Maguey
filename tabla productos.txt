@@ -1,1 +1,2 @@
- create table Productos (ID int not null auto_increment primary key, Nombre varchar (50) not null,Descripcion varchar (100),Precio float not null,Existencia float not null, Departamento int not null, imagen varchar (255));
+create table Productos (ID int not null auto_increment primary key, Nombre varchar (50) not null,Descripcion varchar (100),Precio float not null,Existencia float not null, Departamento int not null, imagen varchar (255));
+Todos son geis UwU
